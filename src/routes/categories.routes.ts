@@ -15,7 +15,7 @@ categoryRoutes.post("/", (req, res) => {
     return createCategoryController.handle(req, res);
 });
 
-categoryRoutes.get("/all", (req, res) => {
+categoryRoutes.get("/", (req, res) => {
     return listCategoryController.handle(req, res);
 });
 
